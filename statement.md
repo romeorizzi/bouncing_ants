@@ -28,3 +28,8 @@ Questo problema prevede i seguenti goal, ossia obbiettivi che puoi prefiggerti d
 - `upper_bound_on_end_of_process`: al più $N=1000000$ formiche, $W <= 1000000000$, answer within $0.5$ sec.
 - `precise_end_of_process`: al più $N=1000000$ formiche, $W <= 1000000000$, answer within $0.5$ sec.
 - `upper_bound_on_end_of_process_without_knowing_the_initial_disposition_of_the_ants`: al più $N=1000000$ formiche, $W <= 1000000000$, answer within $0.01$ sec.
+
+
+Link to a Video with Interesting Related problems we could also consider:
+
+https://www.youtube.com/watch?v=zoZVuqP1rQM
