@@ -1,0 +1,14 @@
+[problem]
+title = "Bouncing Ants"
+
+[scoring]
+goals = [
+    "simulate_process_small",
+    "simulate_process_big",
+    "simulate_one_ant_small",
+    "simulate_one_ant_middle",
+    "simulate_one_ant_big",
+    "upper_bound_on_end_of_process",
+    "precise_end_of_process",
+    "upper_bound_on_end_of_process_without_knowing_the_initial_disposition_of_the_ants",
+]
