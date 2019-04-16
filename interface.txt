@@ -1,9 +1,8 @@
 // ants are named according to their original settings: the rightwards get even numbers, the leftwards get odd numbers: the number 1 is the (originally) leftward moving ant of smalles coordinate, the number 2 is the (originally) rightward moving ant of smalles coordinate. 
 
 
-procedure simulate_process(n_right,n_left,x_right[],x_left[],name_left[],name_right[]) callbacks {
-   function report_a_bounch(time,name_ant1,name_ant2,x);
-   function report_a_fall_off(time,border,name_ant);
+procedure simulate_process(W, n_right, n_left, x_right[], x_left[], name_right[], name_left[]) callbacks {
+   function report_a_fall_off(time, border, name_ant);
 }
 
 
@@ -17,5 +16,5 @@ main {
       read x_left[i];      
       read name_left[i];
     }
-    call simulate_process(n_right,n_left,x_right,x_left,name_right,name_left);
+    call simulate_process(W, n_right, n_left, x_right, x_left, name_right, name_left);
 }
