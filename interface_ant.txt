@@ -1,0 +1,20 @@
+// ants are named according to their original settings: the rightwards get even numbers, the leftwards get odd numbers: the number 1 is the (originally) leftward moving ant of smalles coordinate, the number 2 is the (originally) rightward moving ant of smalles coordinate. 
+
+
+procedure simulate_ant(W, n_right, n_left, x_right[], x_left[], name_right[], name_left[]) callbacks {
+   function report_a_bounch(name, time, position);
+}
+
+
+main {
+    read W, n_right, n_left;
+    for i to n_right {
+      read x_right[i];
+      read name_right[i];
+    }
+    for i to n_left {
+      read x_left[i];      
+      read name_left[i];
+    }
+    call simulate_ant(W, n_right, n_left, x_right, x_left, name_right, name_left);
+}

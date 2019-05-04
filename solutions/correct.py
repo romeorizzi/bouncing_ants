@@ -21,3 +21,8 @@ def simulate_process (W, n_right, n_left, x_right, x_left, name_right, name_left
 		if not report_a_fall_off (W-x_right[-i-1], 1, name_merged[-i-1]): return
 	for i in range(n_left):
 		if not report_a_fall_off (x_left[i]+1, 0, name_merged[i]): return
+		
+		
+		
+def simulate_ant (W, n_right, n_left, x_right, x_left, name_right, name_left, report_a_bounch):
+	pass
